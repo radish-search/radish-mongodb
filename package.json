@@ -1,0 +1,26 @@
+{
+  "name": "radish-mongodb",
+  "description": "MongoDB Reader plugin for Radish search",
+  "version": "0.0.1",
+  "author": {
+    "name": "Victor Kareh",
+    "email": "vkareh@vkareh.net"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/radish-search/radish-mongodb.git"
+  },
+  "main": "./index.js",
+  "scripts": {
+    "test": "mocha --reporter=list"
+  },
+  "peerDependencies": {
+    "radish-search": "0.1.x"
+  },
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "mocha": "^2.2.4",
+    "radish-search": "radish-search/radish-search"
+  }
+}
